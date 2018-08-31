@@ -1,0 +1,38 @@
+  <view class="title">考试车型{{carType}}</view>
+  <view class="subject-title">科目1</view>
+
+<view class="post">
+  <block wx:if="{{e1Record}}">
+    <view class="recordMsg">完成情况:{{e1Record.complete}}            正确率:{{e1Record.correct}}</view>
+  </block>
+  <view class="neirong">
+    <view bindtap="goTest" data-testType="order" data-subject="1" class="e_selection">顺序学习</view>
+      
+    <view bindtap="goTest" data-testType="rand" data-subject="1" class="e_selection">模拟考试</view>
+  </view>   
+  <view class="neirong">    
+    <view bindtap="goTest" data-testType="error" data-subject="1" class="e_selection">错题本</view>
+              
+    <view bindtap="updateExam" data-subject="1" class="e_selection s4">更新题库</view> 
+  </view>       
+</view>
+      
+ 
+<view class="subject-title">科目4</view>
+<view class="post"> 
+  <block wx:if="{{e4Record}}">
+    <view class="recordMsg">完成情况{{e4Record.complete}}  正确率{{e4Record.correct}}</view>
+  </block>
+  <view class="neirong">    
+    <view bindtap="goTest" data-testType="order" data-subject="4" class="e_selection">顺序学习</view>
+          
+    <view bindtap="goTest" data-testType="rand" data-subject="4" class="e_selection">模拟考试</view>
+  </view>    
+  <view class="neirong">  
+    <view bindtap="goTest" data-testType="error" data-subject="4" class="e_selection">错题本</view>
+            
+    <view bindtap="updateExam" data-subject="4" class="e_selection">更新题库</view>
+  </view>
+</view>   
+
+  <view class="title-right header-item" bindtap="goSystem">用户设置</view>

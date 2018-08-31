@@ -1,0 +1,37 @@
+.title {
+  font-size: 32pt;
+}
+
+.recordMsg {
+  background-color: #b2b2b2;
+  margin-bottom: 16rpx;
+  color:#e64340;
+}
+.subject-title {
+  margin-top: 32rpx;
+  font-size: 24pt;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.neirong {
+  display: flex;
+  justify-content: space-between;
+}
+
+.e_selection {
+  background-color: #09bb07;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  margin-bottom: 16rpx;
+  width:300rpx;
+  font-size:17pt;
+  border-style:solid;
+  border-width: 1px;
+  border-color: #353535;
+  text-align: center;
+  border-radius:16px;
+}

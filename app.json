@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/test/test",
+    "pages/finish/finish",
+    "pages/video/video",
+    "pages/system/system"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+  	"list":[
+  		{
+	  		"pagePath":"pages/home/home",
+	  		"text":"科目1"
+  		},
+  		{
+        "pagePath": "pages/video/video",
+        "text": "视频"
+	  		
+  		},
+  		{
+	  		"pagePath":"pages/home/home",
+	  		"text":"测试"
+  		},
+  		{
+	  		
+        "pagePath": "pages/system/system",
+        "text": "我的"
+  		}
+  	]
+
+  }
+}
